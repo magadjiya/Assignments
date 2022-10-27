@@ -1,0 +1,15 @@
+html, body {
+    height:100%;
+    margin: 0%;
+}
+
+body{
+    background-image:url(win.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-style: normal, orange;
+}

@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar {
+    height: 200%;
+    width: 200px;
+    position: solid;
+    top: 0px;
+    float: right;
+    margin-top: 20%;
+    padding-top: 22px;
+}  
+.icon {
+    padding: 8px;
+    font-size: 25px;
+    font-family:monospace;
+    display: block;
+}
+.icon a{
+    text-decoration: none;
+    color: teal;
+    padding: 1px 5px;
+    transition: all .5s ease;
+}
+.icon a:hover{
+    background-color: white;
+    color: turquoise;
+    box-shadow: 0 0 10px white;
+}
+#home{
+    display:flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    margin-top:20%;
+    padding-left: 5%;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('student.jpg') no-repeat center center/cover;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px 0px;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+#photo{
+    display: flex;
+}
+#photo img{
+    width: 500px;
+    height: 400px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 30px;
+}
+#project{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+#service{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    border: 1px;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 20px;
+    background:linear-gradient(to top, teal 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all 1s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px black;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: url('majesteux.jpg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: 500px;
+    width: 400px;
+    border-radius: 35px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form input{
+    width: 250px;
+    height: 10px;
+    padding: 15px;
+    outline: none;
+}
+#button{
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: 1s;
+}
+#button:hover{
+    opacity:0.7;
+}
+#progress{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: url('architecture.jpg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+}
+#ongoing{
+    height: 100px;
+    width:1000px;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+#row #box h1 a{
+    text-decoration: none;
+    color: teal;
+    padding: 1px 5px;
+    transition: all .5s ease;
+}
+footer{
+    min-height: 30vh;
+    background-color:black;
+}
+

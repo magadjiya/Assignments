@@ -1,0 +1,30 @@
+html, body {
+    height:100%;
+    margin: 0%;
+}
+
+body {
+    background-image:url(cute.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+table {
+    border: 3px solid;
+    border-style: groove;
+    border-radius: 25px;
+    background: orch;
+    padding: 35px;
+    margin: auto;
+}
+
+td {
+    font-style: initial;
+    
+}
+
+p {
+    text-align: center;
+}
